@@ -1,0 +1,12 @@
+{
+  "primary_key": "customer_id",
+  "fields": [
+    { "name": "customer_id", "type": "int", "required": true, "unique": true, "min": 1 },
+    { "name": "email", "type": "string", "required": true, "unique": true, "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" },
+    { "name": "full_name", "type": "string", "required": true },
+    { "name": "plan", "type": "enum", "required": true, "values": ["free", "pro", "enterprise"] },
+    { "name": "monthly_spend", "type": "float", "min": 0, "max": 100000 },
+    { "name": "active", "type": "bool", "required": true },
+    { "name": "signed_up", "type": "date", "required": true, "format": "%Y-%m-%d" }
+  ]
+}

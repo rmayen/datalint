@@ -1,0 +1,10 @@
+customer_id,email,full_name,plan,monthly_spend,active,signed_up
+1,ana@example.com,Ana Ruiz,pro,"1,250.00",yes,2025-03-14
+2,ben@example.com,Ben Okafor,free,0,true,2025-04-02
+3,not-an-email,Chloe Park,pro,89.99,no,2025-05-19
+4,dev@example.com,Devin Lee,platinum,45,TRUE,2025-06-01
+5,eve@example.com,,enterprise,-20,yes,06/15/2025
+2,frank@example.com,Frank Mora,free,,false,2025-07-07
+6,ana@example.com,Ana Ruiz (dup),pro,300,yes,2025-08-20
+7,gia@example.com,Gia Chen,enterprise,12000,maybe,2025-09-09
+8,hal@example.com,Hal Singh,free,0,no,2025-10-01
